@@ -1,0 +1,15 @@
+C:\Users\ricky\Desktop\csharptesting\projects\PizzaCalculator\bin\Debug\net6.0\PizzaCalculator.exe
+C:\Users\ricky\Desktop\csharptesting\projects\PizzaCalculator\bin\Debug\net6.0\PizzaCalculator.deps.json
+C:\Users\ricky\Desktop\csharptesting\projects\PizzaCalculator\bin\Debug\net6.0\PizzaCalculator.runtimeconfig.json
+C:\Users\ricky\Desktop\csharptesting\projects\PizzaCalculator\bin\Debug\net6.0\PizzaCalculator.dll
+C:\Users\ricky\Desktop\csharptesting\projects\PizzaCalculator\bin\Debug\net6.0\ref\PizzaCalculator.dll
+C:\Users\ricky\Desktop\csharptesting\projects\PizzaCalculator\bin\Debug\net6.0\PizzaCalculator.pdb
+C:\Users\ricky\Desktop\csharptesting\projects\PizzaCalculator\obj\Debug\net6.0\PizzaCalculator.csproj.AssemblyReference.cache
+C:\Users\ricky\Desktop\csharptesting\projects\PizzaCalculator\obj\Debug\net6.0\PizzaCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ricky\Desktop\csharptesting\projects\PizzaCalculator\obj\Debug\net6.0\PizzaCalculator.AssemblyInfoInputs.cache
+C:\Users\ricky\Desktop\csharptesting\projects\PizzaCalculator\obj\Debug\net6.0\PizzaCalculator.AssemblyInfo.cs
+C:\Users\ricky\Desktop\csharptesting\projects\PizzaCalculator\obj\Debug\net6.0\PizzaCalculator.csproj.CoreCompileInputs.cache
+C:\Users\ricky\Desktop\csharptesting\projects\PizzaCalculator\obj\Debug\net6.0\PizzaCalculator.dll
+C:\Users\ricky\Desktop\csharptesting\projects\PizzaCalculator\obj\Debug\net6.0\ref\PizzaCalculator.dll
+C:\Users\ricky\Desktop\csharptesting\projects\PizzaCalculator\obj\Debug\net6.0\PizzaCalculator.pdb
+C:\Users\ricky\Desktop\csharptesting\projects\PizzaCalculator\obj\Debug\net6.0\PizzaCalculator.genruntimeconfig.cache
