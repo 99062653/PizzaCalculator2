@@ -18,6 +18,19 @@
             Console.ForegroundColor = ConsoleColor.White;
 
         }
+
+        public static string pizzaChoice()
+        {
+            Console.WriteLine("---------------------------");
+            Console.WriteLine("WELKE MAAT WILT U BESTELLEN");
+            Console.WriteLine($"(S)MALL: \u20AC{smallPizaPrice}");
+            Console.WriteLine($"(M)EDIUM: \u20AC{mediumPizaPrice}");
+            Console.WriteLine($"(L)ARGE: \u20AC{largePizaPrice}");
+            var pizzaChoiceMade = Console.ReadKey().Key.ToString();
+
+            // Console.WriteLine("Choice made: " + pizzaChoiceMade);
+            return pizzaChoiceMade;
+        }
         static void Main()
         {   
             Settings();
@@ -31,32 +44,38 @@
 
             if (keyPressed == ConsoleKey.Enter)
             {
-                Console.WriteLine("---------------------------");
-                Console.WriteLine("WELKE MAAT WILT U BESTELLEN");
-                Console.WriteLine($"(S)MALL: \u20AC{smallPizaPrice}");
-                Console.WriteLine($"(M)EDIUM: \u20AC{mediumPizaPrice}");
-                Console.WriteLine($"(L)ARGE: \u20AC{largePizaPrice}");
-                var pizzaChoice = Console.ReadKey().Key;
+                var pizzaChoiceMade = pizzaChoice();
+                string typePizza = "";
+                double amountPizza = -48;//anders geeft console.read() een verkeerde waarde terug
 
-                switch (pizzaChoice)
+                switch (pizzaChoiceMade)
                 {
                     default:
                         Console.WriteLine("(404) PIZZA MAAT NIET GEVONDEN");
+                        pizzaChoice();
                         break;      
 
-                    case ConsoleKey.S:
+                    case "S":
+                        typePizza = "SMALL";
                         Cart += smallPizaPrice;
                         break;   
 
-                    case ConsoleKey.M:
+                    case "M":
+                        typePizza = "MEDIUM";
                         Cart += mediumPizaPrice;
                         break; 
 
-                    case ConsoleKey.L:
+                    case "L":
+                        typePizza = "LARGE";
                         Cart += largePizaPrice;
                         break;
                 }
-                Console.WriteLine("Your total = \u20AC" + Cart);
+
+                Console.Write($"HOEVEEL {typePizza} PIZZA'S WILT U? ");
+                amountPizza = Console.Read();
+
+                Console.WriteLine("Your total = \u20AC" + Cart * amountPizza);
+                Console.WriteLine("calculations: " + Cart + " * " + amountPizza + " = " + Cart * amountPizza);
                 Console.ReadKey();
             }
         }
